@@ -4,14 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bento</title>
+    <!-- imports -->
+    <link rel="stylesheet" href="css/imports.css">
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="src/output.css">
     <!-- custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    
+<body class="font-custom bg-slate-100">
+    <section class="grid lg:grid-flow-col lg:grid-cols-4 lg:grid-rows-6 container-centered lg:h-[100vh] gap-5 p-3 md:p-5 lg:p-10 md:grid-cols-2">
+
+        <!-- 10x faster with ai -->
+        <div class="flex-col w-full gap-3 p-8 text-center text-white lg:order-3 bg-violet-600 md:col-span-2 lg:row-span-2 perfect-center rounded-3xl lg:p-6 sm:max-lg:min-h-[24vh]">
+            <p class="text-3xl font-medium sm:text-5xl">Social media <span class="text-5xl font-semibold text-amber-300">10X</span> faster with AI</p>
+            <figure class="max-w-[160px]">
+                <img src="img/illustration-five-stars.webp" alt="five stars rating">
+            </figure>
+            <p>over 4000 5-stars reviews</p>
+        </div>
+
+        <!-- multiple accounts -->
+        <div class="flex flex-col justify-center w-full gap-5 p-8 overflow-hidden bg-white lg:order-4 lg:row-span-2 rounded-3xl lg:p-6 sm:justify-between sm:max-md:min-h-[24vh]">
+            <figure class="md:min-w-[150%] xl:min-w-[150%]">
+                <img src="img/illustration-multiple-platforms.webp" alt="multiple platforms">
+            </figure>
+            <p class="text-3xl font-medium xl:text-2xl lg:max-xl:text-xl sm:max-md:pr-10">Manage multiple accounts and platforms</p>
+        </div>
+
+        <!-- consistent schedule -->
+        <div class="flex flex-col w-full gap-3 p-8 overflow-hidden bg-amber-300 lg:order-6 lg:row-span-2 rounded-3xl lg:p-6 md:gap-6 md:justify-between">
+            <p class="text-3xl font-medium xl:text-2xl lg:max-xl:text-xl">Mantain a consistent posting schedule</p>
+            <figure class="relative max-w-full top-8 lg:top-4">
+                <img src="img/illustration-consistent-schedule.webp" alt="posting schedule">
+            </figure>
+        </div>
+
+        <!-- schedule social media -->
+        <div class="flex flex-col w-full gap-5 p-8 overflow-hidden bg-violet-200 lg:order-8 lg:row-span-4 perfect-center rounded-3xl lg:items-start lg:p-6 md:col-span-2">
+            <p class="text-3xl font-medium">Schedule to social media</p>
+            <figure class="lg:min-w-[136%] sm:max-lg:max-w-[72%]">
+                <img src="img/illustration-schedule-posts.webp" alt="schedule social media posts">
+            </figure>
+            <p>Optimize post timings to publish content at perfect time for your audience</p>
+        </div>
+
+        <!-- grow followers -->
+        <div class="flex-col w-full gap-5 p-8 text-center text-white sm:text-start bg-violet-600 lg:col-span-2 lg:row-span-2 lg:order-7 rounded-3xl lg:p-6 md:col-span-2 sm:flex-row perfect-center">
+            <figure class="sm:max-lg:max-w-[40%]">
+                <img src="img/illustration-grow-followers.webp" alt="grow followers">
+            </figure>
+            <p class="text-2xl font-medium sm:text-3xl">Grow followers with non-stop content</p>
+        </div>
+
+        <!-- audience growth -->
+        <div class="flex flex-col justify-center w-full gap-3 p-8 bg-white lg:row-span-2 lg:order-5 rounded-3xl lg:p-6 sm:max-md:perfect-center">
+            <span class="text-6xl font-medium">>56%</span>
+            <p>faster audience growth</p>
+            <figure>
+                <img src="img/illustration-audience-growth.webp" alt="audience growth">
+            </figure>
+        </div>
+
+        <!-- quicker schedule -->
+        <div class="flex flex-col justify-center w-full gap-5 p-8 bg-amber-100 lg:row-span-3 lg:order-1 rounded-3xl lg:p-6 sm:max-md:perfect-center">
+            <p class="text-3xl font-medium">Create and schedule content <span class="italic text-violet-500">quicker</span></p>
+            <figure class="max-w-[72%]">
+                <img src="img/illustration-create-post.webp" alt="quicker schedule">
+            </figure>
+        </div>
+
+        <!-- write with ai -->
+        <div class="flex flex-col justify-center w-full gap-3 p-8 lg:row-span-3 bg-amber-300 lg:order-2 rounded-3xl lg:p-6 md:max-lg:col-span-2 md:max-lg:flex-row">
+            <p class="text-3xl font-medium md:max-lg:text-5xl md:max-lg:pr-20">Write your content using AI</p>
+            <figure>
+                <img src="img/illustration-ai-content.webp" alt="ai content">
+            </figure>
+        </div>
+        
+
+    </section>
 </body>
 
 </html>
